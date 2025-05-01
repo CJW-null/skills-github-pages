@@ -1,15 +1,11 @@
----
-title: "Maximum Likelihood Estimation"
-date: 2025-05-01
----
-
+# Intro to Maximum Likelihood Estimation"
 
 Maximum Likelihood Estimation (MLE) is a method used to estimate the parameters of a statistical model. 
 The core idea is to find the parameter values that are most likely to have generated the observed data, based on the data’s distribution.
 
 These estimated values can be used for further statistical inference, such as prediction, hypothesis testing, and confidence interval estimation.
 
-# Explanation
+## Explanation
 Below is an explanation using the Bernoulli distribution as an example:
 
 Assume we have a sequence of discrete random variables X, where each variable takes the value 1 with probability p and 0 with probability 1−p:
@@ -34,10 +30,12 @@ To find the maximum likelihood estimate p.hat​, we take the derivative of the 
 
 ![image](https://github.com/user-attachments/assets/77af0f51-9ad5-4ac0-9446-7a4446836a9f)
 
-# Conclusion
+## Conclusion
 In the case of a Bernoulli distribution, the MLE is simply the sample mean X.bar— that is, the proportion of observed 1s. This result is both intuitive and statistically sound.
 
-# References
+## References
 [MLE wiki page](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation?source=post_page-----b37b0453af0e---------------------------------------)
+
 [pmf wiki page](https://en.wikipedia.org/wiki/Probability_mass_function?source=post_page-----b37b0453af0e---------------------------------------)
+
 [Bernoulli distribution wiki page](https://en.wikipedia.org/wiki/Bernoulli_distribution?source=post_page-----b37b0453af0e---------------------------------------)
